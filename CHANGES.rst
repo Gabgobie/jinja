@@ -1,5 +1,11 @@
 .. currentmodule:: jinja2
 
+Version 3.2.1
+-------------
+
+-   Add type annotation to ``FILTERS``
+    :issue:`2120`
+
 Version 3.2.0
 -------------
 
