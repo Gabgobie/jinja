@@ -1815,7 +1815,7 @@ async def async_select_or_reject(
                 yield item
 
 
-FILTERS = {
+FILTERS: t.Dict[str, F] = {
     "abs": abs,
     "attr": do_attr,
     "batch": do_batch,
